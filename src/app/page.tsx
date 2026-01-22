@@ -113,7 +113,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
-                An AI-powered geometric design generator that transforms natural language descriptions into beautiful abstract compositions. Powered by Claude AI for instant creative expression.
+                An AI-powered geometric design generator that transforms natural language descriptions into beautiful abstract compositions. Free to use with optional AI credits for advanced features.
               </p>
               <ul className="space-y-2 mb-8 text-sm text-gray-600 dark:text-gray-400">
                 <li className="flex items-center gap-2">

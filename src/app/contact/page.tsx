@@ -234,7 +234,7 @@ export default function ContactPage() {
               },
               {
                 q: 'Do I need to pay for Shapemo?',
-                a: 'Shapemo is completely free to use with our built-in AI service. No API key or subscription required.',
+                a: 'Shapemo is free to use for basic features. AI-powered design generation requires credits, which can be purchased within the app.',
               },
               {
                 q: 'What platforms do your products support?',

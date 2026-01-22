@@ -133,7 +133,7 @@ export default function ProductsPage() {
                   <h3 className="text-2xl font-bold mb-2">Shapemo</h3>
                   <p className="text-gray-600 dark:text-gray-400 mb-6">AI Geometric Design</p>
                   <div className="flex items-center justify-center gap-2 text-sm text-gray-500">
-                    <span className="px-3 py-1 rounded-full bg-white dark:bg-gray-800">Free to Use</span>
+                    <span className="px-3 py-1 rounded-full bg-white dark:bg-gray-800">Free + AI Credits</span>
                     <span className="px-3 py-1 rounded-full bg-white dark:bg-gray-800">Web App</span>
                   </div>
                 </div>
@@ -149,7 +149,7 @@ export default function ProductsPage() {
                 Shapemo
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed mb-8">
-                Transform your ideas into stunning geometric art with the power of AI. Simply describe what you want, and let Claude AI create beautiful abstract compositions in seconds. Perfect for creators, educators, and design enthusiasts.
+                Transform your ideas into stunning geometric art with the power of AI. Simply describe what you want and create beautiful abstract compositions in seconds. Free to use with optional AI credits for advanced generation features.
               </p>
 
               <div className="space-y-4 mb-10">
@@ -161,7 +161,7 @@ export default function ProductsPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">AI-Powered Generation</h3>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">Describe your design in natural language and watch Claude AI bring it to life.</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Describe your design in natural language and watch AI bring it to life.</p>
                   </div>
                 </div>
 

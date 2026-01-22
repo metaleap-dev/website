@@ -30,7 +30,7 @@ export default function TermsPage() {
 
             <h3 className="text-lg font-medium mt-6 mb-3">Shapemo</h3>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-              Shapemo is a web-based geometric design generator powered by our built-in AI service. The application is provided free of charge.
+              Shapemo is a web-based geometric design generator. Basic features are free to use. AI-powered design generation requires credits, which can be purchased within the application.
             </p>
           </section>
 
