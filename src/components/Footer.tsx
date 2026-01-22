@@ -81,18 +81,18 @@ export default function Footer() {
               &copy; {new Date().getFullYear()} MetaLeap LLC. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
-              <a
-                href="#"
+              <Link
+                href="/privacy"
                 className="text-sm text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition-colors"
               >
                 Privacy Policy
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                href="/terms"
                 className="text-sm text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition-colors"
               >
                 Terms of Service
-              </a>
+              </Link>
             </div>
           </div>
         </div>
