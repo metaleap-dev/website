@@ -32,9 +32,9 @@ export default function PrivacyPage() {
 
             <h3 className="text-lg font-medium mt-6 mb-3">Shapemo</h3>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 dark:text-gray-400">
-              <li>Your Anthropic API key (stored locally in your browser only)</li>
-              <li>Design prompts and generated content (processed via Anthropic&apos;s API)</li>
-              <li>We do not store your designs or API keys on our servers</li>
+              <li>Design prompts you enter for AI generation</li>
+              <li>Generated designs (processed through our built-in AI service)</li>
+              <li>We do not permanently store your designs on our servers</li>
             </ul>
           </section>
 
@@ -54,7 +54,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-2xl font-semibold mb-4">Data Storage and Security</h2>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-              We prioritize local-first data storage. Your data in MotifyUp is stored on your device and synced via iCloud if enabled. Shapemo stores your API key in your browser&apos;s local storage. We implement industry-standard security measures to protect any data that passes through our services.
+              We prioritize local-first data storage. Your data in MotifyUp is stored on your device and synced via iCloud if enabled. Shapemo processes your design requests through our secure AI service. We implement industry-standard security measures to protect any data that passes through our services.
             </p>
           </section>
 
@@ -65,7 +65,6 @@ export default function PrivacyPage() {
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-600 dark:text-gray-400">
               <li><strong>Apple (MotifyUp):</strong> For app distribution and optional iCloud sync</li>
-              <li><strong>Anthropic (Shapemo):</strong> For AI-powered design generation</li>
             </ul>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed mt-4">
               Please review these services&apos; privacy policies for information about their data practices.

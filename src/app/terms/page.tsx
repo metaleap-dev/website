@@ -30,7 +30,7 @@ export default function TermsPage() {
 
             <h3 className="text-lg font-medium mt-6 mb-3">Shapemo</h3>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-              Shapemo is a web-based geometric design generator powered by AI. Users must provide their own Anthropic API key to use the AI features. The application is provided free of charge; however, API usage costs are the user&apos;s responsibility.
+              Shapemo is a web-based geometric design generator powered by our built-in AI service. The application is provided free of charge.
             </p>
           </section>
 
@@ -42,7 +42,7 @@ export default function TermsPage() {
             <ul className="list-disc pl-6 space-y-2 text-gray-600 dark:text-gray-400">
               <li>Use our services only for lawful purposes</li>
               <li>Not attempt to reverse engineer, modify, or distribute our software</li>
-              <li>Keep your API keys and account credentials secure</li>
+              <li>Keep your account credentials secure</li>
               <li>Not use our services to create harmful, offensive, or illegal content</li>
               <li>Comply with all applicable laws and regulations</li>
             </ul>
@@ -54,14 +54,14 @@ export default function TermsPage() {
               All content, features, and functionality of our services are owned by MetaLeap LLC and are protected by intellectual property laws. You retain ownership of any content you create using our tools.
             </p>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-              Designs created with Shapemo are yours to use as you wish, subject to Anthropic&apos;s terms of service regarding AI-generated content.
+              Designs created with Shapemo are yours to use as you wish for personal and commercial purposes.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">Third-Party Services</h2>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-              Our services may rely on or integrate with third-party services (such as Apple App Store, Anthropic API). Your use of these services is subject to their respective terms and conditions. We are not responsible for the availability, accuracy, or content of third-party services.
+              Our services may rely on or integrate with third-party services (such as Apple App Store). Your use of these services is subject to their respective terms and conditions. We are not responsible for the availability, accuracy, or content of third-party services.
             </p>
           </section>
 

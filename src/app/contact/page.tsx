@@ -234,7 +234,7 @@ export default function ContactPage() {
               },
               {
                 q: 'Do I need to pay for Shapemo?',
-                a: 'Shapemo is free to use. You just need to provide your own Anthropic API key, which is stored securely in your browser.',
+                a: 'Shapemo is completely free to use with our built-in AI service. No API key or subscription required.',
               },
               {
                 q: 'What platforms do your products support?',
