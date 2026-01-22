@@ -1,0 +1,23 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="32" fill="#f8fafc"/>
+  <!-- M: Left vertical -->
+  <circle cx="35" cy="35" r="14" fill="#EA580C"/>
+  <circle cx="35" cy="65" r="14" fill="#F97316"/>
+  <circle cx="35" cy="95" r="14" fill="#EA580C"/>
+  <circle cx="35" cy="125" r="14" fill="#F97316"/>
+  <circle cx="35" cy="155" r="14" fill="#EA580C"/>
+  <!-- M: Left diagonal -->
+  <circle cx="65" cy="65" r="14" fill="#F97316"/>
+  <circle cx="85" cy="95" r="14" fill="#EA580C"/>
+  <!-- M: Center -->
+  <circle cx="100" cy="125" r="14" fill="#F97316"/>
+  <!-- M: Right diagonal -->
+  <circle cx="115" cy="95" r="14" fill="#EA580C"/>
+  <circle cx="135" cy="65" r="14" fill="#F97316"/>
+  <!-- M: Right vertical -->
+  <circle cx="165" cy="35" r="14" fill="#EA580C"/>
+  <circle cx="165" cy="65" r="14" fill="#F97316"/>
+  <circle cx="165" cy="95" r="14" fill="#EA580C"/>
+  <circle cx="165" cy="125" r="14" fill="#F97316"/>
+  <circle cx="165" cy="155" r="14" fill="#EA580C"/>
+</svg>

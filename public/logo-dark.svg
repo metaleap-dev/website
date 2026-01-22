@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradientDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect x="20" y="20" width="160" height="160" rx="40" fill="#1a1a1a"/>
+  <!-- Letter M with gradient -->
+  <path d="M60 140V72L100 112L140 72V140H124V100L100 124L76 100V140H60Z" fill="url(#logoGradientDark)"/>
+  <!-- Upward arrow accent (representing "leap") -->
+  <path d="M100 48L116 64H108V76H92V64H84L100 48Z" fill="url(#logoGradientDark)" fill-opacity="0.9"/>
+</svg>
