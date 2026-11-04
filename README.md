@@ -35,7 +35,7 @@ npm start
 
 ## Deployment
 
-Production runs on the existing Vercel project `sagaggs-projects/website`, serving https://www.metaleap.so/.
+Production runs on the existing Vercel project `sagaggs-projects/metaleap`, serving https://www.metaleap.so/.
 
 **Release policy: manual CLI deployment only.** The Vercel Git integration was disconnected on 2026-11-04. Project inspection confirmed no Git connection and no deployment hooks; this repository contains no GitHub Actions workflows. Do not reconnect Git integration or add a CI deployment job unless deliberately switching the release process. Pushing source changes does not publish the website.
 
@@ -44,7 +44,7 @@ Deploy manually from this checkout without GitHub CI/CD:
 ```bash
 npx --yes vercel@65.11.0 whoami
 # First-time setup only; reuse the existing project, do not create a new one.
-npx --yes vercel@65.11.0 link --yes --project website --scope sagaggs-projects
+npx --yes vercel@65.11.0 link --yes --project metaleap --scope sagaggs-projects
 npm run build
 npx --yes vercel@65.11.0 deploy --prod --yes --scope sagaggs-projects
 ```
