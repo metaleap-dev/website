@@ -1,8 +1,5 @@
 import type { NextConfig } from "next";
-import { withMargo } from 'margo-dev/next';
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+const nextConfig: NextConfig = {};
 
-export default withMargo(nextConfig);
+export default nextConfig;

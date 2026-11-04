@@ -1,0 +1,26 @@
+/* Fonts shared with the Shapemo brand site; OFL licenses in public/fonts. */
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/font-0.ttf') format('truetype')}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:500;font-display:swap;src:url('/fonts/font-1.ttf') format('truetype')}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/font-2.ttf') format('truetype')}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/font-3.ttf') format('truetype')}
+.skip-link{position:fixed;inset-block-start:12px;inset-inline-start:12px;z-index:100;background:var(--mds-text);color:var(--mds-surface);padding:12px 20px;border-radius:var(--mds-radius);transform:translateY(-160%)}
+.skip-link:focus{transform:none}
+.button:active{transform:scale(.98)}
+.contact-form .mds-field-label{font-weight:500}
+.contact-form .mds-input,.contact-form .mds-select,.contact-form .mds-textarea{background:var(--mds-surface)}
+.contact-form .mds-button-label{white-space:normal}
+.metaleap-theme .mds-button.menu-toggle{display:none}
+@media(max-width:700px){.metaleap-theme .mds-button.menu-toggle{display:inline-flex}.contact-form .mds-button{width:100%}}
+
+.ui-icon{display:inline-block;vertical-align:middle;flex-shrink:0;color:inherit}
+.nav a,.footer-top a:not(.brand),.contact-products>a,.email-link,.art-caption>span:last-child{display:inline-flex;align-items:center;gap:8px}
+.round-arrow .ui-icon{width:24px;height:24px}
+
+.arcade-socials{display:flex;align-items:center;flex-wrap:wrap;gap:8px 16px;margin-block-start:24px;padding-block-start:16px;border-block-start:1px solid color-mix(in srgb,currentColor 20%,transparent);width:100%}
+.social-label{font-size:11px;line-height:1.5;color:inherit;opacity:.8}
+.arcade-socials nav{display:flex;align-items:center;gap:4px}
+.arcade-socials nav a{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border-radius:var(--mds-radius);color:inherit;transition:background var(--mds-duration-fast) var(--mds-ease-out)}
+.arcade-socials nav a:hover{background:color-mix(in srgb,currentColor 10%,transparent)}
+.arcade-socials-compact{margin-block-start:0;padding-block-start:0;border:0;gap:4px;flex-direction:column;align-items:flex-start}
+.arcade-socials-compact .social-label{font-size:10px;color:var(--mds-muted)}
+.arcade-socials-compact nav{margin-inline-start:-12px}
